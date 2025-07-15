@@ -5,7 +5,14 @@
 # Created: 08/07/2025
 # Copyright: (c) Zhecheva.Yordanka 2025
 # Licence:   <your licence>
+#         Input IP/Host Name;
+#         log in with administrator account and password;
+#         Get system parameters for the server;
+#         Check disk partitions, free and used space;
+#         Generate report in pdf format;
+#         Send message when disk space decreases below X% and send email
 #-------------------------------------------------------------------------------
+
 import os
 import wmi
 import winrm
